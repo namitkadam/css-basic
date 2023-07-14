@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+header{
+    background-color: #002633;
+    height: 110px;
+    margin: 0 5px;
+    width: auto;
+}
+.logo a img{
+    height: 100px;
+    width: 200px;
+margin-top: 2px;    
+}
+header nav{
+    margin-left:50px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav_rightside ul{
+    display: flex;
+    list-style: none;
+}
+header .nav_rightside ul li{
+    font-size: 20px;
+    margin-left: 30px;
+    text-transform:uppercase ;
+    align-items: center;
+    font-weight: bold;
+}
+header .nav_rightside ul li a{
+    color: white;
+    font-weight: 700px;
+    text-decoration: none;
+}
+header .nav_rightside ul li a:hover{
+    color: red;
+    transform: .5s;
+}
+.bg-image{
+  height: 100vh;
+  width: auto;
+  background-image: url("/bricker/img/carousel-01.jpg");
+  background-size: cover;
+  background-position: top;
+  margin: 0px 5px;
+}
+.bg-image .hero{
+    padding-top: 300px;
+    font-weight: bold;
+}
+.bg-image .hero .text{
+    width: 910px;
+    height: auto;
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+    background-color: red;
+      box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585bb;
+}
+.bg-image .hero .text_1{
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    font-size: 25px;
+    background-color: white;
+    height: auto;
+    width: 1050px;
+    text-align: center; 
+}
+
+/* ---------------------------------------------------------------------------------Section_2 */
+.section_2{
+    display: flex;
+    background-color: #002633;
+}
+.section_2 .right_side_cards, .section_2 .left_side_cards{
+    flex:1
+}
+
+.section_2 .left_side_cards .top_section, .section_2 .left_side_cards .bottom_section{
+    width: 100%;
+    display: flex;
+}
+.section_2 .left_side_cards .single-card{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 10px 0;
+}
+
+.section_2 .left_side_cards .top_section .single-card:nth-child(1){background-color: rgb(200, 16, 16);}
+.section_2 .left_side_cards .top_section .single-card:nth-child(2){background-color: rgb(0, 88, 129);}
+.section_2 .left_side_cards .bottom_section .single-card:nth-child(1){background-color: rgb(228, 166, 0);}
+.section_2 .left_side_cards .bottom_section .single-card:nth-child(2){background-color: rgb(0, 181, 166);}
+
+.section_2 .left_side_cards .single-card a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+    
