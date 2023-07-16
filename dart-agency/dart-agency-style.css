@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    /* background-image: url("/dart-agency/images/header-background.png"); */
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color:#18b6f9;
+}
+.header .logo a{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    margin-left: 25px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.section_2 .heading{
+    background-color:#18b6f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+.heading h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 14px;
+}
+.heading p{
+    color: #fff;
+    width: 600px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.heading button{
+    background-color:#18b6f9 ;
+    font-size: 20px;
+    padding: 10px;
+    width: 160px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+}
+.heading button:hover{
+    background-color:#fff;
+    color: #18b6f9;
+}
+main .offer{
+    text-align: center;
+    padding: 20px;
+    color: #556a87;
+}
+.offer h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #18b6f9;
+    margin-bottom: 30px;
+}
+.offer p{
+    font-size: 14px;
+    width: 500px;
+    font-weight: 400;
+    display: flex;
+margin: auto;
+}
+.section_2{
+    margin-top: 50px;
+}
+.section_2 .icons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    justify-content:space-between;
+    padding: 10px;
+}
+.section_2 .card{
+    width: 450px;
+    height: 250px;
+    border: 2px solid #c5bdbd;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+}
+.card .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 50px;
+    background-color: #00aafe;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    color: #fff;
+}
+.card h3{
+font-size: 30px;
+margin: 20px 0px;
+color: #4f4f4f;
+font-weight: bold;
+}
+.card p{
+    color: #4f4f4f;
+    font-weight: bold;
+}
