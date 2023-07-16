@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* ----------------------nav bar----------------------------------- */
 header{
     /* background-image: url("/dart-agency/images/header-background.png"); */
     background-color:#18b6f9;
@@ -32,9 +33,7 @@ nav ul li a{
     font-weight: 600;
     text-decoration: none;
 }
-.section_2{
-    
-}
+/* -----------------------heading------------------ */
 .section_2 .heading{
     background-color:#18b6f9;
     display: flex;
@@ -92,6 +91,7 @@ main .offer{
     line-height: 25px;
 
 }
+/* --------------------------icons----------------------------- */
 .section_2{
     margin-top: 50px;
 }
@@ -137,6 +137,7 @@ font-weight: bold;
     color: #4f4f4f;
     font-weight: bold;
 }
+/* ------------------------contact---------------------------------- */
 .contact_us{
     background-color: #18b6f9;
     text-align: center;
@@ -168,6 +169,7 @@ font-weight: bold;
     color: #18b6f9;
     background-color: #fff;
 }
+/* ------------------------- project -----------------------------------*/
 .project{
     text-align: center;
     margin: 150px;
@@ -202,6 +204,7 @@ font-weight: bold;
 .project_card p{
     color:#7d7d7d ;
 }
+/* --------------------videos----------------------------------- */
 .videos{
     background-color: #18b6f9;
     margin-top: 50px;
@@ -213,5 +216,239 @@ align-items: center;
 justify-content: center;
 font-size: 100px;
 color: #fff;
+}
+/* ------------------------------CREATIVE-------------------------- */
+.creative_team{
+    margin: 150px;
+    text-align: center;
+}
+.creative_team h1{
+    font-size: 30px;
+    color: #556a87;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.creative_team p{
+    color: #7d7d7d;
+    width: 560px;
+    font-weight: 200;
+    margin: auto;
+    line-height: 25px;
+}
+/* -----------------------------founder---------------------------------- */
+.founder_cards{
+    display: flex;
+    justify-content: space-around;
+}
+.founder_cards .founder_card{
+    text-align: center;
+}
+.founder_card a{
+    text-decoration: none;
+}
+.founder_card h2{
+    color: #4f4f4f;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.founder_card p{
+color: #7d7d7d;
+}
+.pricing{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.pricing h1{
+    font-size: 30px;
+    color: #4f4f4f;
+    margin-bottom: 20px;
+}
+.pricing p{
+    width: 600px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 25px;
+    color: #7d7d7d;
+}
+/* ---------------------------- plan--------------------------*/
+.plan .plan_cards{
+    display: flex;
+    justify-content: center;
+}
+.plan_cards .single_plan_card{
+    border: 1px solid rgb(219, 214, 214);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+}
+.single_plan_card h5{
+    font-size: 30px;
+    font-weight: 200;
+    color: #4f4f4f;
+    padding-top: 50px;
+}
+.single_plan_card h3{
+    color:#4f4f4f ;
+    padding-top: 15px;
+}
+h3 span{
+    font-size: 40px;
+}
+.single_plan_card p{
+    font-size: 18px;
+    width: 150px;
+    padding-top: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 400;
+    color: #7d7d7d;
+    margin-bottom: 10px;
+}
+.single_plan_card button{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    margin: auto;
+    background-color: #fff;
+    color: #7d7d7d;
+    border-color: #7d7d7d;
+}
+.single_plan_card button:hover{
+    color: #ffffff;
+    background-color: #18b6f9;
+    border-color: #18b6f9;
+}
+.single_plan_card:hover{
+    background-color: #18b6f9;
+    height: 450px;
+}
+.section_3{
+    background-color: #18b6f9;
+    margin-top: 200px;
+}
+.section_3 .overview ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
+.overview ul li{
+    list-style: none;
+}
+li h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+li p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.clients{
+    margin-top: 150px;
+    text-align: center;
+}
+.client h1{
+    font-size: 40px;
+    color: #4f4f4f;
+}
+.client p{
+    width: 600px;
+    margin: auto;
+    padding-top: 14px;
+    color: #7d7d7d;
+    line-height: 25px;
+}
+.client_commet{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 810px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+}
+.client_commet p{
+    margin: 20px;
+    line-height: 30px;
+    color: #7d7d7d;
+}
+.client_commet h2{
+    color: #4f4f4f;
+}
+.contacts{
+    margin-top: 200px;
+    padding:50px;
+    background-color: #00aafe;
+    text-align: center;
+    color: #fff;
+}
+.contacts h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.contacts button{
+border-radius: 40px;
+width: 150px;
+height: 40px;
+background-color: #00aafe;
+border-color: #fff;
+color: #fff;
+text-transform: uppercase;
+}
+.contacts button:hover{
+color:#00aafe;
+background-color: #fff;
+}
+.blog{
+    margin-top: 150px;
+    text-align: center;
+}
+.blog h1{
+    font-size: 30px;
+    color: #4f4f4f;
+    margin: 20px;
+}
+.blog p{
+    font-size: 16px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 100px;
+    color: #7d7d7d;
+}
+.blog_cards .cards{
+    display: flex;
+    justify-content: space-around;
 
+}
+.single_blog_card a{
+    text-decoration: none;
+}
+.cards .single_blog_card a h3{
+    color: #4f4f4f;
+    margin: 10px 0px;
+}
+.single_blog_card p{
+    color: #7d7d7d;
+}
+.single_blog_card h4{
+    color: #4f4f4f;
+    margin: 10px 0px;
+}
+.blog_cards .single_blog_card h3:hover{
+    color: #00aafe;
+}
+.blog_cards .single_blog_card h4:hover{
+    color: #00aafe;
 }
