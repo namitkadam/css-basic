@@ -452,3 +452,113 @@ background-color: #fff;
 .blog_cards .single_blog_card h4:hover{
     color: #00aafe;
 }
+/* ----------------------------------footer------------------------ */
+footer{
+
+    background-color: #001f37;
+}
+.footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.agency{
+    color: #fff;
+}
+.agency h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.agency p{
+    width: 300px;
+    line-height: 25px;
+}
+.agency ul{
+    display: flex;
+    margin-top: 20px;
+    list-style: none;
+}
+.agency ul li{
+    font-size: 28px;
+    margin-right: 20px;
+    
+}
+.agency li:hover{
+    color: #00aafe;
+}
+.link h4{
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.link ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.link ul li{
+    padding: 10px 0px;
+    list-style: none;
+}
+footer .footer_content_us h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer_content_us ul li{
+    color: #fff;
+    list-style: none;
+}
+.footer_content_us ul li i{
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.footer_content_us li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_content_us h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer_content_us input{
+    width: 280px;
+    height: 36px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.instagram h4{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.instagram ul{
+    display: flex;  
+    flex-wrap: wrap;
+    width: 400px;
+    list-style: none;
+}
+.instagram li{
+    margin-left: 5px;
+}
+hr{
+    width: 1000px;
+    margin: auto;
+    color:#0f354f;
+    border: 1px soldi;
+
+}
+.Copyright{
+    color: #fff;
+    text-align: center;
+    border-width: ;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+.Copyright a{
+    color: #00aafe;
+    text-decoration: none;
+}
