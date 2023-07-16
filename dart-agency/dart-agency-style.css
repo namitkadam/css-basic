@@ -6,12 +6,12 @@
 }
 header{
     /* background-image: url("/dart-agency/images/header-background.png"); */
+    background-color:#18b6f9;
 }
 header nav{
     display: flex;
     justify-content: space-between;
     padding: 60px;
-    background-color:#18b6f9;
 }
 .header .logo a{
     font-size: 25px;
@@ -31,6 +31,9 @@ nav ul li a{
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
+}
+.section_2{
+    
 }
 .section_2 .heading{
     background-color:#18b6f9;
@@ -85,7 +88,9 @@ main .offer{
     width: 500px;
     font-weight: 400;
     display: flex;
-margin: auto;
+    margin: auto;
+    line-height: 25px;
+
 }
 .section_2{
     margin-top: 50px;
@@ -131,4 +136,82 @@ font-weight: bold;
 .card p{
     color: #4f4f4f;
     font-weight: bold;
+}
+.contact_us{
+    background-color: #18b6f9;
+    text-align: center;
+    padding: 150px;
+    margin-top: 200px;
+    color: #fff;
+}
+.contact h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+.contact button{
+    color: #fff;
+    font-size: 18px;
+    background-color: #18b6f9;
+    border-radius: 30px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-color: #fff;
+}
+.contact button:hover{
+    color: #18b6f9;
+    background-color: #fff;
+}
+.project{
+    text-align: center;
+    margin: 150px;
+    color: #4f4f4f;
+}
+.project h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.project p{
+    width: 580px;
+    margin: auto;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.featured_project .project_cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    justify-content:space-between;
+    padding: 40px;
+}
+.project_card{
+    padding: 20px 0px;
+    background-color:#ffffff;
+}
+.project_card h4{
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #4f4f4f;
+}
+.project_card p{
+    color:#7d7d7d ;
+}
+.videos{
+    background-color: #18b6f9;
+    margin-top: 50px;
+    padding: 150px;
+}
+.video i{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 100px;
+color: #fff;
+
 }
