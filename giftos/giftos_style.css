@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------------------------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main_container{
+    padding: 0 45px;
+}
+header .logo h1{
+    margin: 20px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logo a{
+    text-decoration: none;
+}
+header .nav_menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav_menu li{
+    border-radius: 6px;
+    padding: 8px 20px;
+}
+.nav_menu li a{
+    text-decoration: none;
+    color: #514f4f;
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+    
+}
+.nav_menu .active{
+    background-color: #fff;
+}
+.nav_login_user{
+    display: flex;
+    list-style: none;
+}
+.nav_login_user li:nth-child(1){
+    margin: 20px;
+}
+.nav_login_user li{
+    margin: auto;
+    padding-left: 16px;
+}
+.nav_login_user a i{
+    margin-right: 10px;
+}
+.nav_login_user a{
+    text-decoration: none;
+    color: #514f4f;
+    font-size: 16px;
+}
+.nav_bar{
+    display: flex;
+    background-color: #f9ece6;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    /* margin: 0px 40px; */
+}
+.shoping_card{
+    display: flex;
+    background-color: #f89cab;
+    /* margin: 0px 40px; */
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius:16px;
+    padding: 80px;
+    justify-content: space-around;
+}
+.left_side_card{
+    color: #ffff;
+}
+.left_side_card h1{
+    width: 500px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 140px;
+}
+.left_side_card p{
+    width: 720px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 12px;
+}
+.left_side_card button{
+    margin-top: 80px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-color: #db4566;
+    border-radius: 5px;
+    background-color: #db4566;
+    color: #ffff;
+    text-transform: uppercase;
+}
+.left_side_card button:hover{
+    color:#db4566;
+    background-color: #f89cab;
+}
+.product{
+    width: 84%;
+    margin: auto;
+}
+.product .title h4{
+    padding: 90px;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.product .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.product .cards .card{
+    height: 292px;
+    width: 260px;
+}
+.product .cards .card .box{
+    padding: 20px 10px;
+    background-color: rgb(238, 238, 238);
+    position: relative;
+}
+.product .cards .card .box a{
+    text-decoration: none;
+    color: #000;
+}
+.product .cards .card .box .new{
+    background-color: #fff;
+    padding: 15px 10px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.product .cards .card .box .img_box{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    height: 245px;
+    justify-content: center;
+}
+.product .cards .card .box .img_box img{
+    max-height: 150px;
+    max-width: 100%;
+}
+
+.product .cards .card .box .detail{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.product .cards .card .box .detail .price{
+    color: #db4f66;
+}
+.product .button{
+    margin-top: 50px;
+    text-align: center;
+}
+.product .button button{
+    font-size: 18px;
+    padding: 10px 40px;
+    color: #ffff;
+    background-color: #f16179;
+    border: 1px solid #f16179;
+    border-radius: 5px;
+}
+.product .button button:hover{
+    background-color: #fff;
+    color: #f16179;
+}
+.best_savings{
+    display: flex;
+}
+
+
