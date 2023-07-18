@@ -59,7 +59,8 @@ table {
 }
 header .logo h1{
     margin: 20px;
-    font-size: 40px;
+    font-size: 26px;
+    font-weight: bolder;
     color: black;
     text-align: center;
     text-transform: uppercase;
@@ -320,17 +321,18 @@ header .nav_menu{
     padding: 0px 10px;
     background-color: rgb(105, 41, 165);
     border-radius: 20px;
+    margin-bottom:100px ;
 }
 .gifts .left_side_gift img{
     width: 500px;
     padding: 60px 10px 60px 25px;
 }
 .gifts .right_side_gift{
-    padding: 0px 25px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-color: #000;
+    padding: 0px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
 }
 .gifts .right_side_gift h6{
     font-size: 30px;
@@ -346,14 +348,231 @@ color: #000;
     width: 720px;
     margin: 20px 0px;
 }
-.gifts .right_side_gift button{
+.gifts .right_side_gift .button_2 button{
+   font-size: 18px;
+   padding: 12px 50px;
+   border-radius: 0%;
+   margin: 0px 3px;
+}
+.gifts .right_side_gift .button_2 .buy:hover{
+background-color: #6929a5;
+color: #fff;
+}
+.gifts .right_side_gift .button_2 .gift_see{
+    color: #fff;
+    background-color: #6929a5;
+    border-color: #9242dd;
+
+}
+.gifts .right_side_gift .button_2 .gift_see:hover{
+    color: #9242dd;
+    background-color: #6929a5;
+    border-color: #9242dd;
+    box-shadow: none;
+}
+.contact_details{
+    padding: 0px 90px;
+}
+.contact_details h6{
+font-size: 30px;
+font-weight: 800;
+margin-bottom: 45px;
+text-transform: uppercase;
+}
+.contact_details .form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.contact_details .form .left_side_contact_details{
+    font-size: 14px;
+    font-weight: 100;
+    max-width: 100%;
+    letter-spacing: .5px;
+}
+.contact_details .form .right_side_contact_form{
+    margin: 35px 10px;   
+}
+.contact_details .form .right_side_contact_form form input{
+    width: 450px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(186, 180, 180);
+    border-radius: 0%;
+    font-size: 16px;
+}
+.contact_details .form .right_side_contact_form form .msg{
+    height: 120px;
+}
+.contact_details .form .right_side_contact_form form button{
+    padding: 12px 40px;
+    margin: 35px auto 0px auto;
+    display: block;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0%;
+    color: #ffff;
+    border: 1px solid #db4f66;
+    background-color: #db4f66;
+}
+.contact_details .form .right_side_contact_form form button:hover{
+    color: #db4f66;
+    background: #fff;
+}
+.test .heading_test{
+    
+    margin-bottom: 50px;
+}
+.test .heading_test h6{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.test .heading_test .client_details{
+    width: 1090px;
+    height: 230px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    padding: 30px;
+}
+.test .heading_test .client_details .client_detail{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.test .heading_test .client_details .client_detail .client_name{
+    font-size: 20px;
+    font-weight: 800;
+    color: #db4f66;
+    padding-bottom: 16px;
+}
+.test .heading_test .client_details .client_detail .model_text{
+    font-size: 16px;
+    color: #bfc0c0;
+}
+.test .heading_test .client_details .client_detail i{
+    font-size: 30px;
+}
+.test .heading_test .client_details .client_text{
+    font-size: 18px;
+}
+footer{
+    background-color: #2d2d2d;
+    margin-top: 100px;
+    padding: 75px 100px;
+}
+footer .footer .social_logo{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+footer .footer .social_logo i{
+    color: #fff;
+    margin: 10px;
+}
+.footer .info_container{
+    display: flex;
+    margin-bottom: 70px;
+}
+footer .footer .info_container .about_us{
+    width: 290px;
+    padding: 0% 25px;
+}
+footer .footer .info_container .about_us h6{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+footer .footer .info_container .about_us p{
+    color: #cbc9c9;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+footer .footer .info_container .from_info{
+    padding: 0px 25px;
+    width: 310px;
+}
+footer .footer .info_container .from_info h6{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+footer .footer .info_container .from_info input{
+    height: 40px;
+    width: 260px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+footer .footer .info_container .from_info button{
+    padding: 8px 35px;
+    font-size: 18px;
+    border:none;
+    color: #ffff;
+    background-color: #f89cab;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+footer .footer .info_container .hela{
+    width: 290px;
+    padding: 0% 25px;
+}
+footer .footer .info_container .hela h6{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+footer .footer .info_container .hela p{
+    color: #cbc9c9;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+footer .footer .info_container .contact{
+    width: 290px;
+    padding: 0% 25px;
+    color: #ffff;
+    list-style: none;
+}
+footer .footer .info_container .contact h6{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+footer .footer .info_container .contact a{
+color: #ffff;
+line-height: 30px;
+text-decoration: none;
+font-size: 18px;
+}
+footer .footer .info_container .contact a i{
+    margin-right: 6px;
     
 }
-
-
-
-
-
-
-
-
+footer .footer .copy_right{
+    border-top: 2px solid #eee;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 26px;
+    font-size: 18px;
+    color: #ffff;
+}
+footer .footer .copy_right a{
+    text-decoration: none;
+    color: #cbc9c9;
+}
