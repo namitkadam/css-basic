@@ -191,3 +191,34 @@ main .about .left_card button:hover{
 main .right_card img{
     border-radius: 20px;
 }
+.jobs{
+    margin-top: 90px;
+    padding: 150px;
+    background-color: #08135c;
+}
+.jobs h5{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.jobs h6{
+    font-size: 24px;
+    font-weight: 500s;
+    color: #fff;
+    padding-bottom: 35px;
+}
+.left_job{
+    display: flex;
+    width: 450px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.left_job img{
+    width: 95px;
+    height: 100px;
+    margin: 20px 20px 70px 20px;
+    background-color: #fff;
+}
