@@ -7,6 +7,7 @@
 header{
     background-image: linear-gradient(to right,rgba(8,19,92,.9),rgba(8,19,92,.9)),url("images/slider-bg.jpg");
 background-size: cover;
+padding-bottom: 200px;
 }
 header .nav_bar nav{
     display: flex;
@@ -27,20 +28,31 @@ header .nav_bar nav .menu_nav_bar ul{
     display: flex;
 }
 header .nav_bar nav .menu_nav_bar ul  li{
-    padding: 10px 20px;
+    padding: 10px 23px;
     font-size: 14px;
     list-style: none;
     text-transform: uppercase;
 }
+header .nav_bar nav .menu_nav_bar ul:hover{
+    color: #e41a2b;
+}
+
 header .nav_bar nav .menu_nav_bar ul  li a{
     color: #fff;
     text-decoration: none;
-
 }
+header .nav_bar nav .menu_nav_bar ul  li a:hover{
+    color: #e41a2b;
+}
+
 header .nav_bar nav .menu_nav_bar ul  li a i{
     color: #fff;
-    margin-right: 5px;
+    margin-right: 10px;
 }
+header .nav_bar nav .menu_nav_bar ul  li a i:hover{
+    color: #e41a2b;
+}
+
 header .career_section{
     padding-top: 120px;
     text-align: center  ;
@@ -48,10 +60,12 @@ header .career_section{
 header .career_section h6{
     color: #fff;
     font-size: 38px;
-    font-weight: 800;
+    font-weight: 700;
     text-transform: uppercase;
-    width: 500px;
+    width: 400px;
     margin: auto;
+    letter-spacing: .5px;
+    line-height: 50px;
 }
 header .career_section p{
     font-size: 18px;
@@ -59,7 +73,7 @@ header .career_section p{
     width: 650px;
     margin: auto;
     padding: 10px;
-    line-height: 26px;
+    line-height: 25px;
 }
 header .career_section .form_career ul{
     display: flex;
@@ -85,9 +99,10 @@ header .career_section .form_career ul li select{
     height: 46px;
     border-radius: 5px;
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #fff;
     border: 0cap;
+    color: rgb(73, 80, 87);
 }
 header .career_section .form_career ul li button{
     color: #fff;
@@ -101,4 +116,78 @@ header .career_section .form_career ul li button{
 header .career_section .form_career ul li button:hover{
     background: transparent;
     color: #e41a2b;
+}
+
+header .check_box ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color:#fff;
+}
+header .check_box ul li{
+    font-size: 16px;
+    margin-left: 15px;
+}
+header .check_box ul li input{
+    width: 20px;
+    height: 20px;
+}
+header .check_box ul li :hover{
+    color: #e41a2b;
+}
+main .course_cards ul{
+    background-color: #e41a2b;
+    display: flex;
+    list-style: none;
+}
+main .course_cards .card{
+    width: 240px;
+    height: 160px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    cursor:pointer;
+    padding: 0xp 15px;
+    text-align: center;}
+main .course_cards .card:hover{
+    background-color: #b61522;
+}
+main .course_cards .card img{
+    width: 60px;
+    padding-bottom: 5px;
+}
+main .course_cards .card a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+main .about{
+    display: flex;
+    padding: 0px 150px;
+    padding-top: 100px;
+}
+main .about .left_card{
+    padding: 15px;
+}
+main .about .left_card h6{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+main .about .left_card button{
+    margin-top : 35px;
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #08135c;
+    background-color: #08135c;
+    border-radius: 5px;
+}
+main .about .left_card button:hover{
+    background-color: #fff;
+    color: #08135c;
+}
+main .right_card img{
+    border-radius: 20px;
 }
