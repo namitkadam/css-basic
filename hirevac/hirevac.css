@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: linear-gradient(to right,rgba(8,19,92,.9),rgba(8,19,92,.9)),url("images/slider-bg.jpg");
+background-size: cover;
+}
+header .nav_bar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:18px ;
+
+}
+header .nav_bar .logo a{
+    font-size: 28px;
+    font-weight: 650;
+    padding-left: 16px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: .3px;
+}
+header .nav_bar nav .menu_nav_bar ul{
+    display: flex;
+}
+header .nav_bar nav .menu_nav_bar ul  li{
+    padding: 10px 20px;
+    font-size: 14px;
+    list-style: none;
+    text-transform: uppercase;
+}
+header .nav_bar nav .menu_nav_bar ul  li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+header .nav_bar nav .menu_nav_bar ul  li a i{
+    color: #fff;
+    margin-right: 5px;
+}
+header .career_section{
+    padding-top: 120px;
+    text-align: center  ;
+}
+header .career_section h6{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 500px;
+    margin: auto;
+}
+header .career_section p{
+    font-size: 18px;
+    color: #fff;
+    width: 650px;
+    margin: auto;
+    padding: 10px;
+    line-height: 26px;
+}
+header .career_section .form_career ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+    row-gap: 10px;
+}
+header .career_section .form_career ul li{
+    /* margin-right: 10px; */
+    padding: 10px 5px;
+}
+header .career_section .form_career ul li input{
+    width: 260px;
+    height: 46px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: 0cap;
+}
+header .career_section .form_career ul li select{
+    width: 260px;
+    height: 46px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 0cap;
+}
+header .career_section .form_career ul li button{
+    color: #fff;
+    background-color: #e41a2b;
+    width: 190px;
+    height: 46px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #e41a2b;
+}
+header .career_section .form_career ul li button:hover{
+    background: transparent;
+    color: #e41a2b;
+}
