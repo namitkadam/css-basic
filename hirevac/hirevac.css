@@ -297,3 +297,161 @@ main .right_card img{
     background-color: transparent;
     color: #e41a2b;
 }
+.experts_container{
+    padding: 100px 150px 55px 150px ;
+}
+.experts_container .experts_cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.experts_container .heading{
+    text-align: center;
+}
+.experts_container .heading h6{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.experts_container .heading p{
+    padding: 10px 0px 30px 0px;
+}
+.experts_container .experts_cards .experts_card{
+    height: 520px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #08135c;
+}
+.experts_container .experts_cards .experts_card .img_box img{
+    width: 350px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.experts_container .experts_cards .experts_card .details{
+    padding: 18px 15px;
+    color: #fff;
+}
+.experts_container .experts_cards .experts_card .details .name a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.experts_container .experts_cards .experts_card .details .post_jobs{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+.experts_container .experts_cards .experts_card .details .rating ul{
+    display: flex;
+    list-style: none;
+    padding-bottom: 10px;
+}
+.experts_container .button{
+    padding: 45px;
+    text-align: center;
+}
+.experts_container .button button{
+    font-size: 16px;
+    padding: 10px 45px;
+    color: #fff;
+    border: 1px solid #e41a2b;
+    border-radius: 5px;
+    background-color: #e41a2b;
+}
+.experts_container .button button:hover{
+    background-color: transparent;
+    color: #e41a2b;
+}
+footer{
+    padding: 64px 150px 45px 150px;
+    background-color: #08135c;
+    color: #fff;
+
+}
+.footer{
+    display: flex;
+}
+footer .menu{
+
+    flex: 1;
+}
+footer .menu .heading h6{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom:20px ;
+}
+footer .menu .check_box ul{
+    list-style: none;
+    line-height: 25px;
+}
+footer .menu .check_box ul input{
+    width: 10px;
+    
+}
+footer .job{
+    flex: 2;
+}
+footer .job h6{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom:20px;
+}
+footer .job p{
+    width: 240px;
+}
+footer .social_link{
+    flex: 2;
+}
+footer .social_link h6{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom:20px;
+}
+footer .social_link ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+footer .social_link li i{
+    margin: inherit;
+    font-size: 18px;
+}
+footer .social_link ul li{
+    background-color: #fff;
+    color: #08135c;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+footer .social_link ul li:hover{
+    color: #b61522;
+}
+footer .letters{
+    flex:2
+}
+footer .letters h6{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom:20px;
+}
+footer .letters input{
+    width: 350px;
+    height: 45px;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+footer .letters button{
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #e41a2b;
+    border: 1px solid #e41a2b;
+    border-radius: 5px;
+}
+footer .letters button:hover{
+    background-color: transparent;
+    color:#e41a2b;
+}
