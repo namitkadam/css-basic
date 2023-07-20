@@ -78,6 +78,7 @@ header .career_section p{
 header .career_section .form_career ul{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 10px;
     list-style: none;
     row-gap: 10px;
@@ -138,6 +139,7 @@ header .check_box ul li :hover{
 main .course_cards ul{
     background-color: #e41a2b;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 main .course_cards .card{
@@ -172,7 +174,6 @@ main .about .left_card{
 main .about .left_card h6{
     font-size: 32px;
     font-weight: 700;
-    padding-bottom: 15px;
 }
 main .about .left_card button{
     margin-top : 35px;
@@ -193,32 +194,106 @@ main .right_card img{
 }
 .jobs{
     margin-top: 90px;
-    padding: 150px;
+    padding: 150px 150px 100px 150px;
     background-color: #08135c;
 }
-.jobs h5{
+.jobs h4{
     text-align: center;
     font-size: 32px;
     font-weight: 700;
     color: #fff;
     padding-bottom: 30px;
 }
-.jobs h6{
-    font-size: 24px;
-    font-weight: 500s;
+.jobs .featued_container .heading{
+    font-size: 28px;
+    font-weight: 300;
     color: #fff;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
 }
-.left_job{
-    display: flex;
-    width: 450px;
-    height: 200px;
-    border: 2px solid #fff;
+.container{
+    display:flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.jobs .featued_jobs_container{
+    width: 555px;
+    border: 1PX solid #fff;
+    padding: 20PX;
     border-radius: 5px;
+    margin-bottom: 35px;
 }
-.left_job img{
-    width: 95px;
+.jobs .featued_jobs_container .box_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.jobs .featued_jobs_container .box_container .img_box{
+    width: 100px;
     height: 100px;
-    margin: 20px 20px 70px 20px;
     background-color: #fff;
+    margin-right: 20px;
+}
+.jobs .featued_jobs_container .box_container .img_box img{
+    max-width: 50px;
+    margin: 25px;
+
+}
+.jobs .featued_jobs_container .box_container .course_container h6{
+    font-size: 21px;
+    width: 360px;
+    font-weight: 600;
+    color: #fff;
+}
+.jobs .featued_jobs_container .box_container .course_container .dollar{
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+.jobs .featued_jobs_container .box_container .course_container .dollar p{
+    margin-right: 15px;
+    padding-top: 5px;
+    color: #fff;
+}
+.jobs .featued_jobs_container .box_container .course_container .dollar p i{
+    letter-spacing: 10px;
+    color: #fff;
+}
+.jobs .featued_jobs_container .button{
+    text-align: end;
+    padding-top: 22px;  
+}
+.jobs .featued_jobs_container .button button{
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #213092;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.jobs .featued_jobs_container .button button:hover{
+    background-color: transparent;
+    
+}
+.jobs .featued_jobs_container .button i{
+    font-size: 22px;
+    color: #fff;
+}
+.jobs .View_button{
+    text-align: center;
+    padding-top: 20px;
+}
+.jobs .View_button button{
+    padding: 10px 45px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e41a2b;
+    background-color: #e41a2b;
+}
+.jobs .View_button button:hover{
+    background-color: transparent;
+    color: #e41a2b;
 }
