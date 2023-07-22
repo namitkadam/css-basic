@@ -180,16 +180,15 @@ margin-right: 5px;
 .banner_main .banner_container .tex_container h5{
   color: #f2c119;
   font-size: 116px;
-  /* line-height: 120px; */
-  padding-bottom: 50px;
-  font-weight: 200;
-  font-family: 'Righteous', 'cursive';
+  font-weight: 400;
+  font-family: inherit;
 
 }
 .banner_main .banner_container .tex_container p{
   font-size: 34px;
   color: #2a2a2c;
   padding-bottom: 50px;
+  font-weight: 500;
 }
 .banner_main .banner_container .tex_container a{
   font-size: 17px;
@@ -308,7 +307,7 @@ margin-right: 5px;
   padding: 90px 160px;
 }
 .news h4{
-  font-size: 32px;
+  font-size: 35px;
   padding-bottom: 10px;
   margin-bottom: 50px;
   border-bottom: 5px solid #f2c119;
@@ -339,24 +338,82 @@ margin-right: 5px;
 footer .subscribe{
   display: flex;
   padding: 0px 160px;
-  column-gap: 280px;
+  column-gap: 190px;
+  padding-bottom: 90px;
 }
 footer .subscribe h4{
   font-size: 32px;
   width: 300px;
+  line-height: 32px;
 }
 footer .subscribe input{
   width: 630px;
-  height: 55px;
-  padding: 30px;
+  height: 40px;
+  padding: 28px;
   border-radius: 40px;
-  font-size: 18px;
+  font-size: 17px;
+  border: 1px solid;
+  position: absolute;
 }
 footer .subscribe a{
-  padding: 10px 45px;
+    padding: 10px 45px;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #183661;;
+    border-radius: 50px;
+    color: #fff;
+    position: relative;
+    z-index: auto;
+    top: 15px;
+    left: 447px;
+}
+footer .subscribe a:hover{
+  background-color: #f2c119;
+}
+.footer_three_cards{
+  padding: 0px 160px;
+}
+.footer_three_cards .row_cards{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -80px;
+}
+.footer_three_cards .row_cards .card{
+  background-color: #fff;
+  width: 350px;
+  text-align: center;
+  padding: 40px 0px;
+  border-radius: 20px;
+}
+.footer_three_cards .row_cards .card h6{
   font-size: 17px;
-  text-decoration: none;
-  background-color: #183661;;
-  border-radius: 50px;
+  font-weight: 400;
+}
+.four_box{
+  padding: 170px 160px 60px 160px;
+  background-color: #183661;
+}
+.four_box .details_cards{
+display: flex;
+justify-content: space-between;
+}
+.four_box .details_cards .only_card{
+  width: 230px;
   color: #fff;
+
+}
+.four_box .details_cards .only_card h6{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.four_box .details_cards .only_card p{
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+}
+footer .cuopyright p{
+  padding-top: 28px;
+  padding-bottom: 300px;
+  text-align: center;
+  font-size: 18px;
 }
