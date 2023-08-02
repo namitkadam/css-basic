@@ -9,7 +9,6 @@
 header{
     background-color: #002633;
     height: 110px;
-    margin: 0 5px;
     width: auto;
 }
 .logo a img{
@@ -47,7 +46,7 @@ header .nav_rightside ul li a:hover{
 .bg-image{
     height: 100vh;
     width: auto;
-    background-image: url("/bricker/img/carousel-01.jpg");
+    background-image: url("./img/carousel-01.jpg");
     background-size: cover;
     background-position: top;
     margin: 0px 5px;
