@@ -160,7 +160,7 @@ margin-right: 5px;
   cursor: pointer;
 }
 .banner_main{
-  background-image: url("/romofyi/images/banner.jpg");
+  background-image: url("./images/banner.jpg");
   background-repeat: no-repeat;
   background-size:100% 100%;
   padding-top: 75px;
@@ -241,7 +241,7 @@ margin-right: 5px;
 
 }
 .featured_container{
-  background-image: url("/romofyi/images/product_bg.jpg");
+  background-image: url("./images/product_bg.jpg");
   background-size: 100% 100%;
   padding-bottom: 90px;
 
@@ -412,8 +412,7 @@ justify-content: space-between;
   line-height: 32px;
 }
 footer .cuopyright p{
-  padding-top: 28px;
-  padding-bottom: 300px;
+  padding: 30px 0px 10px 0px;
   text-align: center;
   font-size: 18px;
 }
