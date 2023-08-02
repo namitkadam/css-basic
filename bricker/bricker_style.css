@@ -183,13 +183,13 @@ main{
 .section_5 .left_side_heading_img .single_img a img{
     width: 730px;
     height: 400px;
-    padding: 0px 20px 40px 5px;
+    padding: 0px 0px 40px 5px;
     
 }
 .section_5 .right_side_heading_img .single_img a img{
-    width: 735px;
+    width: 715px;
     height: 400px;
-    padding: 0px 20px 40px 40px;
+    padding: 0px 0px 40px 40px;
 }
  /* -----------------------------------------------------section_6-------------------------------------------------------------- */
 .logo_all{
