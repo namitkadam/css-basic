@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 header{
-    background-image: linear-gradient(to right,rgba(8,19,92,.9),rgba(8,19,92,.9)),url("images/slider-bg.jpg");
+    background-image: linear-gradient(to right,rgba(8,19,92,.9),rgba(8,19,92,.9)),url("./images/slider-bg.jpg");
 background-size: cover;
 padding-bottom: 200px;
 }
@@ -364,7 +364,7 @@ main .right_card img{
     color: #e41a2b;
 }
 footer{
-    padding: 64px 150px 45px 150px;
+    padding: 64px 150px 20px 150px;
     background-color: #08135c;
     color: #fff;
 }
